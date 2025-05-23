@@ -51,7 +51,7 @@ O objetivo deste exercício é construir um modelo de machine learning capaz de 
 
 ### 4. Construção do Modelo de Regressão Linear
 - Dividimos os dados em conjuntos de treino e teste.
-- Treinamos um modelo de regressão linear para prever a área irrigada com base nas horas de irrigação.
+- Treinamos um modelo de regressão linear múltipla para prever o valor dos aluguéis com base caracterísiticas minímas.
 - Imprimimos a equação da reta obtida pelo modelo.
 
 ### 5. Avaliação do Modelo
@@ -62,7 +62,7 @@ O objetivo deste exercício é construir um modelo de machine learning capaz de 
 - Calculamos os resíduos do modelo e verificamos sua normalidade utilizando testes estatísticos e gráficos QQ-Plot.
 
 ### 7. Predições de Exemplo
-- Utilizamos o modelo para prever a área irrigada para diferentes valores de aluguel.
+- Utilizamos o modelo para prever o valor do aluguel para diferentes valores de aluguel.
 - Também é possível executar uma aplicação UI através do Gradio, para realizar predições diversas, baseada no modelo de ML criado.
 
 ## Conclusão
